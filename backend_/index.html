@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Finance Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-graduation-cap"></i> Student Finance Tracker</h1>
+            <button id="logout-btn" class="btn-small" type="button">Logout</button>
+        </header>
+
+        <section class="notifications-bar">
+            <div class="notifications-header">
+                <strong>Alerts</strong> (<span id="notifications-count">0</span>)
+            </div>
+            <div id="notifications" class="notifications-list"></div>
+        </section>
+
+        <!-- Dashboard Summary -->
+        <section class="dashboard">
+            <div class="card income-card">
+                <h3>Income</h3>
+                <p id="total-income">$0.00</p>
+            </div>
+            <div class="card expense-card">
+                <h3>Expenses</h3>
+                <p id="total-expenses">$0.00</p>
+            </div>
+            <div class="card balance-card">
+                <h3>Balance</h3>
+                <p id="total-balance">$0.00</p>
+            </div>
+        </section>
+
+        <div class="main-grid">
+            <!-- Input Section -->
+            <div class="left-column">
+                <section class="form-container">
+                    <h2>Add Transaction</h2>
+                    <form id="transaction-form">
+                        <div class="form-group type-toggle">
+                            <label>Type:</label>
+                            <div class="radio-group">
+                                <input type="radio" id="type-expense" name="type" value="expense" checked>
+                                <label for="type-expense" class="radio-label expense">Expense</label>
+                                
+                                <input type="radio" id="type-income" name="type" value="income">
+                                <label for="type-income" class="radio-label income">Income</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <input type="text" id="title" placeholder="e.g. Part-time Job" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="amount">Amount ($)</label>
+                            <input type="number" id="amount" placeholder="0.00" step="0.01" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <select id="category">
+                                <!-- Options will be populated dynamically based on type -->
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paymentMethod">Payment Method</label>
+                            <select id="paymentMethod">
+                                <option value="Cash">Cash</option>
+                                <option value="Card">Card</option>
+                                <option value="Transfer">Transfer</option>
+                                <option value="Wallet">Wallet</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn">Add Transaction</button>
+                    </form>
+                </section>
+
+                <section class="budget-container">
+                    <h2>Monthly Budget</h2>
+                    <div class="budget-input-group">
+                        <select id="budget-category"></select>
+                        <input type="number" id="budget-limit" placeholder="Set Category Budget">
+                        <button id="set-budget-btn" class="btn-small">Set</button>
+                    </div>
+                    <div class="progress-bar-container">
+                        <div class="progress-label">
+                            <span id="budget-status">0% Used</span>
+                            <span id="budget-display">Budget: $0</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div id="budget-progress" class="progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <ul id="budget-list" class="budget-list"></ul>
+                </section>
+
+                <section class="settings-container">
+                    <h2>Settings</h2>
+                    <div class="form-group">
+                        <label for="currency">Currency Symbol</label>
+                        <select id="currency">
+                            <option value="$">$</option>
+                            <option value="€">€</option>
+                            <option value="£">£</option>
+                            <option value="₹">₹</option>
+                            <option value="৳">৳ (BDT)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="theme">Theme</label>
+                        <select id="theme">
+                            <option value="light">Light</option>
+                            <option value="dark">Dark</option>
+                        </select>
+                    </div>
+                    <button id="save-settings" class="btn">Save Settings</button>
+                </section>
+            </div>
+
+            <!-- Charts & List Section -->
+            <div class="right-column">
+                <section class="charts-container">
+                    <canvas id="expenseChart"></canvas>
+                </section>
+
+                <section class="reports-container">
+                    <h2>Reports</h2>
+                    <div class="report-filters">
+                        <input type="date" id="report-start" />
+                        <input type="date" id="report-end" />
+                        <button id="refresh-reports" class="btn-small" type="button">Refresh</button>
+                        <button id="export-csv" class="btn-small" type="button">Export CSV</button>
+                    </div>
+                    <div class="report-charts">
+                        <canvas id="monthlyChart"></canvas>
+                        <canvas id="trendChart"></canvas>
+                    </div>
+                </section>
+
+                <section class="list-container">
+                    <h2>Recent History</h2>
+                    <ul id="transaction-list" class="transaction-list">
+                        <!-- Items injected here -->
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
