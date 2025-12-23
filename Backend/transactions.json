@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "1766158898883_8e3da57dfc5be",
+    "user": "1766158898380_ca7d56d7ca819",
+    "title": "Lunch",
+    "amount": 12.5,
+    "category": "Food",
+    "type": "expense",
+    "date": "2025-12-19T15:41:38.884Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766159898392_6b4a837658ccd",
+    "user": "1766159838919_68b925d693064",
+    "title": "TAship",
+    "amount": 10000,
+    "category": "Part-time Job",
+    "type": "income",
+    "date": "2025-12-19T15:58:18.392Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766450613544_a7c3d453497af8",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "j1",
+    "amount": 5000,
+    "category": "Part-time Job",
+    "type": "income",
+    "date": "2025-12-23T00:43:33.544Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766450636001_a5ade4ca8abd1",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "j2",
+    "amount": 8000,
+    "category": "Other",
+    "type": "income",
+    "date": "2025-12-23T00:43:56.001Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766450673192_81ee0f07007d",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "TF",
+    "amount": 7000,
+    "category": "Education",
+    "type": "expense",
+    "date": "2025-12-23T00:44:33.192Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766450708380_b6ea2b2553a5d",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "Food",
+    "amount": 3000,
+    "category": "Food",
+    "type": "expense",
+    "date": "2025-12-23T00:45:08.380Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766450758800_c98ff5fd1794e",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "R1",
+    "amount": 5000,
+    "category": "Rent",
+    "type": "expense",
+    "date": "2025-12-23T00:45:58.801Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766452979303_b7f69377edc38",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "Entertainment",
+    "amount": 1200,
+    "category": "Entertainment",
+    "type": "expense",
+    "date": "2025-12-23T01:22:59.303Z",
+    "paymentMethod": "Cash"
+  },
+  {
+    "_id": "1766453025499_a21912ecbbb618",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "title": "job4",
+    "amount": 3000,
+    "category": "Freelance",
+    "type": "income",
+    "date": "2025-12-23T01:23:45.499Z",
+    "paymentMethod": "Cash"
+  }
+]

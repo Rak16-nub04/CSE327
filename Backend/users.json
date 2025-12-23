@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "1766158146890_3334a9dcf37118",
+    "username": "test6252861f",
+    "email": "test6252861f@example.com",
+    "password": "$2b$10$sW.9.mHyqBwBZ96jKAxgquAknhVbLLk7RX0iG1PBLASfNXh2PHRBe",
+    "createdAt": "2025-12-19T15:29:06.890Z",
+    "settings": {
+      "currency": "$",
+      "theme": "light"
+    }
+  },
+  {
+    "_id": "1766158898380_ca7d56d7ca819",
+    "username": "test7cc86179",
+    "email": "test7cc86179@example.com",
+    "password": "$2b$10$gXr6e0SLS95dRCQPai3.ZOiinuQAly0cZ3pjoJixMwgOMQucuBJZe",
+    "createdAt": "2025-12-19T15:41:38.380Z",
+    "settings": {
+      "currency": "$",
+      "theme": "light"
+    }
+  },
+  {
+    "_id": "1766158959970_33b931a10f78e",
+    "username": "none",
+    "email": "sojisajid@gmail.com",
+    "password": "$2b$10$2cwa17Ul06keFeYuVisSI.HJ7IdqUX5xLHJ64BFNCGhR8oGEcZ9PS",
+    "createdAt": "2025-12-19T15:42:39.970Z",
+    "settings": {
+      "currency": "$",
+      "theme": "light"
+    }
+  },
+  {
+    "_id": "1766159838919_68b925d693064",
+    "username": "urmy",
+    "email": "kobirjjhad@gmail.com",
+    "password": "$2b$10$KCdQD4hfndksJrfrR5/qoOFUwVU8KUYYTY/R0vGJdJYueqa6FmxBC",
+    "createdAt": "2025-12-19T15:57:18.919Z",
+    "settings": {
+      "currency": "$",
+      "theme": "dark"
+    },
+    "updatedAt": "2025-12-19T15:58:31.419Z"
+  },
+  {
+    "_id": "1766421826716_e2512c74c9e8c8",
+    "username": "rak",
+    "email": "rak@gmail.com",
+    "password": "$2b$10$kZvx2WfN9N/xKnrVj1CNv.zLDXI1qX2GQHso7KE8IIOp8AfTheMOu",
+    "createdAt": "2025-12-22T16:43:46.716Z",
+    "settings": {
+      "currency": "$",
+      "theme": "dark"
+    },
+    "updatedAt": "2025-12-23T01:22:13.956Z"
+  }
+]

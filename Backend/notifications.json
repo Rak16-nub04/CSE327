@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "1766450813746_8fdd49397c481",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "type": "budget_exceeded",
+    "message": "[2025-12-23] Budget exceeded for Food: 3000.00 / 2800.00",
+    "read": false,
+    "createdAt": "2025-12-23T00:46:53.746Z"
+  },
+  {
+    "_id": "1766452979337_63b230af330898",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "type": "budget_exceeded",
+    "message": "[2025-12-23] Budget exceeded for Entertainment: 1200.00 / 1000.00",
+    "read": false,
+    "createdAt": "2025-12-23T01:22:59.337Z"
+  }
+]

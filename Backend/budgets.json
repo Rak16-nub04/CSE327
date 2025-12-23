@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "1766450813739_daec914b12e02",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "category": "Food",
+    "limit": 2800,
+    "month": 12,
+    "year": 2025,
+    "updatedAt": "2025-12-23T00:46:53.739Z",
+    "createdAt": "2025-12-23T00:46:53.739Z"
+  },
+  {
+    "_id": "1766452950898_83dd3dadd99ec8",
+    "user": "1766421826716_e2512c74c9e8c8",
+    "category": "Entertainment",
+    "limit": 1000,
+    "month": 12,
+    "year": 2025,
+    "updatedAt": "2025-12-23T01:22:30.898Z",
+    "createdAt": "2025-12-23T01:22:30.898Z"
+  }
+]

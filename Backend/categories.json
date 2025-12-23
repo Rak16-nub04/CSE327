@@ -1,0 +1,119 @@
+[
+  {
+    "_id": "1766159813550_c2019e50aae028",
+    "user": null,
+    "name": "Food",
+    "type": "expense",
+    "color": "#e74c3c",
+    "icon": "fa-utensils",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_8de6f0259a5718",
+    "user": null,
+    "name": "Transport",
+    "type": "expense",
+    "color": "#3498db",
+    "icon": "fa-bus",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_efbca540b7d9c8",
+    "user": null,
+    "name": "Rent",
+    "type": "expense",
+    "color": "#9b59b6",
+    "icon": "fa-home",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_c5912b4f969e78",
+    "user": null,
+    "name": "Education",
+    "type": "expense",
+    "color": "#f1c40f",
+    "icon": "fa-book",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_f71d97ba60192",
+    "user": null,
+    "name": "Entertainment",
+    "type": "expense",
+    "color": "#e67e22",
+    "icon": "fa-film",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_9538f74f68a58",
+    "user": null,
+    "name": "Utilities",
+    "type": "expense",
+    "color": "#1abc9c",
+    "icon": "fa-bolt",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_839961c3786",
+    "user": null,
+    "name": "Health",
+    "type": "expense",
+    "color": "#2ecc71",
+    "icon": "fa-heartbeat",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_13c8ac0ad263e8",
+    "user": null,
+    "name": "Other",
+    "type": "expense",
+    "color": "#95a5a6",
+    "icon": "fa-tag",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_ead4a8f50a5a2",
+    "user": null,
+    "name": "Allowance",
+    "type": "income",
+    "color": "#2ecc71",
+    "icon": "fa-hand-holding-usd",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_4affe367c73658",
+    "user": null,
+    "name": "Scholarship",
+    "type": "income",
+    "color": "#3498db",
+    "icon": "fa-graduation-cap",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_fd4074bad6de58",
+    "user": null,
+    "name": "Part-time Job",
+    "type": "income",
+    "color": "#9b59b6",
+    "icon": "fa-briefcase",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_57e3f9c0b86bf8",
+    "user": null,
+    "name": "Freelance",
+    "type": "income",
+    "color": "#e67e22",
+    "icon": "fa-laptop",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  },
+  {
+    "_id": "1766159813551_8fc4f24ace54e8",
+    "user": null,
+    "name": "Other",
+    "type": "income",
+    "color": "#95a5a6",
+    "icon": "fa-tag",
+    "createdAt": "2025-12-19T15:56:53.551Z"
+  }
+]
